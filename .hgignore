@@ -1,0 +1,6 @@
+syntax: glob
+*.orig
+*.class
+*.project
+*.classpath
+*.settings
