@@ -47,16 +47,63 @@ Domain tests should test all the different set and get methods of a domain, ensu
 The Manager tests should all test the business logic of our system. To do this, a Simple Manager which is independent of hibernate should be created and 
 
 
-### [Data Model](https://bitbucket.org/kshr9810/elec5619_cooking_competition/wiki/Home/Mockups)
 
 As a type of prototype and as part of the development process, each of us created MockUps of the system we planned to create, and made a table of all the different components of this project. We also designed the MVC model in a diagram which showed the way the domains, managers and controllers will interact with one another.
 
 
 
-##[Stephen McCloskey]
+# Individual components: Healthy Eating & Practices Guides (Cooking Guidelines) #
 
-##[Kevin Shrestha]
-  
-##[Kevin Ngo]
+It is important to cook safely and store food and ingredients properly. Cooking Guides page provides the following features that help users keep safe and clean when cooking. 
 
-##[The Trung Nguyen](https://bitbucket.org/kshr9810/elec5619_cooking_competition/wiki/Home/TheTrungNguyen)
+![8.PNG](https://bitbucket.org/repo/nBzXnB/images/3989292380-8.PNG)
+
+# Category 
+
+Each guide is classified in a category. There would be about 4 different categories, for example: safety guide, vegetable preservation etcetera. Users need to choose an appropriate category in which their guide will be defined.
+
+![1.PNG](https://bitbucket.org/repo/nBzXnB/images/3276630-1.PNG)
+
+#Guide
+
+The users will be provided the add, edit and delete guide. Working in these sections, the user will have chance to user the editor ( see the image below) which allows users have a document similar toHTML format
+
+![9.PNG](https://bitbucket.org/repo/nBzXnB/images/3472538384-9.PNG)
+
+# Commenting 
+
+Users are encouraged to share their reviews on any guide as the reviews are important as they indicate the quality of the guides. 
+
+![2.PNG](https://bitbucket.org/repo/nBzXnB/images/263999427-2.PNG)
+
+# Favoriting 
+
+Users could favourite any guide, this function is similar to the Like button on Facebook.
+
+![3.PNG](https://bitbucket.org/repo/nBzXnB/images/2759278462-3.PNG)
+
+ Later this will allow users to view the guides they favourite.
+
+![4.PNG](https://bitbucket.org/repo/nBzXnB/images/2881199632-4.PNG)
+
+
+# Searching 
+
+The contents of guides includes some **keywords**. When users add a new guide, the system find the keywords in the contents of the guide,  and then add those keywords to the database. The searching function helps users find their desired guides on the **keyword** and this will be displayed by default in descending order on the number of likes. When users type some first characters, the page will shows them all suggested keywords.
+
+![5.PNG](https://bitbucket.org/repo/nBzXnB/images/3854729335-5.PNG)
+
+# Recommendation 
+
+ As each guide are related to a particular topic or ingredient, it is convenient to suggest users the related recipes that they could practice using the guide. This function will compare the similarities between guide contents ( cousin similarity) and choose top 5 to suggest to users.
+
+![6.PNG](https://bitbucket.org/repo/nBzXnB/images/1064604866-6.PNG)
+
+# Admin Ability 
+
+Besides all of the features for normal users, the admins are able to edit and delete any guides, comments.
+
+![7.PNG](https://bitbucket.org/repo/nBzXnB/images/1021685968-7.PNG)
+
+In this project, I also take responsibility to implement User Login with Spring Security. With the User Login page the traditional way in which the user enters username and password within their respective fields is implemented. 
+
